@@ -10,16 +10,11 @@
 *Forward acoustic propagation using Devito
 *Wavefield visualisation in 3D using PyVista
 
-Attendees who would like a more hands-on experience with Devito can follow along using [Google Colab](https://colab.research.google.com), or on their own local machine. If the latter is preferred, installation instructionsfor Devito can be found [here](https://www.devitoproject.org/devito/download.html).
+Attendees who would like a more hands-on experience with Devito can follow along on their own local machine, ideally using Andaconda. Installation instructions for Devito can be found [here](https://www.devitoproject.org/devito/download.html), however, the notebook contains the required `pip` commands for installing any non-standard modules, so simply make sure you have a fresh conda environment called `transform2021` with an ipython kernel installed. If you have issues installing into a Conda environment, one alternative is a Python `venv`. Note that you can alternatively follow along using [Google Colab](https://colab.research.google.com). However, trying to make any 3D plots with GemPy or PyVista will cause a crash, so bear this in mind.
 
 ## Workshop prerequisites:
 * Basic Python programming knowledge
 * Basic knowledge of finite differences
 * A Google account (if using Colab)
 
-To access the workshop material:
-* If using Google Colab:
-    * Go to...
-* If using your own device:
-    * After installing Devito, in a separeate directory run `git clone https://github.com/devitocodes/transform2021.git`
-    * With the `Devito` environment activated, run `jupyter notebook` and open the tutorial notebook
+To access the workshop material, simply open the notebook titled `creating_synthetics.ipynb` in a new Conda environment. All necessary installations are contained within the notebook.
