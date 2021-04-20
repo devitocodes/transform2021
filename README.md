@@ -31,3 +31,8 @@ To access the workshop material, simply open the notebook titled `creating_synth
 * Install `ipykernel` with `pip install ipykernel`
 * Install the kernel into the `venv` with `ipython kernel install --user --name='transform2021_devito'`
 * Start the notebook with `jupyter notebook`
+
+## Contents:
+
+* `creating_synthetics.ipynb` - The main notebook which will be covered in the tutorial
+* `further_reading_fwi.ipynb` - Further reading, using a slice of the model created in a toy full-waveform inversion (FWI) example
