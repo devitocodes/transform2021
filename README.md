@@ -21,7 +21,7 @@ You can alternatively follow along using [Google Colab](https://colab.research.g
 * Basic knowledge of finite differences
 * A Google account (if using Colab)
 
-To access the workshop material, simply open the notebook titled `creating_synthetics.ipynb` in a new Conda environment or in Google Colab. All necessary installations are contained within the notebook.
+To access the workshop material, simply open the notebook titled `creating_synthetics.ipynb` in a new python `venv` (instructions below) or in Google Colab. All necessary installations are contained within the notebook.
 
 ## Python environment setup:
 
